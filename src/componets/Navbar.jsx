@@ -1,11 +1,41 @@
 function Navbar() {
   return (
-    <nav className="navbar">
-      <ul>
-        <li><a href="#">🍕Inicio</a></li>
-        <li><a href="#">Ingresar</a></li>
-        <li><a href="#"></a></li>
-      </ul>
+    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#">
+          🍕 Pizzeria Il Tomaco
+        </a>
+        <button 
+          className="navbar-toggler" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#navbarNav" 
+          aria-controls="navbarNav" 
+          aria-expanded="false" 
+          aria-label="Alternar navegación"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">
+                Inicio
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Perfil
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link disabled" aria-disabled="true">
+                Registrarse
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   )
 }
