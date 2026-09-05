@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg mi-navbar-personalizado" data-bs-theme="dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           🍕 Pizzeria Il Tomaco
@@ -19,17 +19,17 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="#home">
                 Inicio
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#perfil">
                 Perfil
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled" aria-disabled="true">
+              <a className="nav-link" href="#registrarse">
                 Registrarse
               </a>
             </li>

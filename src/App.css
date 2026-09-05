@@ -1,10 +1,47 @@
-*{
-    
-  font-family: "Geist Pixel", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "ELSH" 0;
+/* Navbar */
+.mi-navbar-personalizado {
+  background-color: #fa6540 !important;
+  color: black !important;
+  padding: 10px;
+  border-radius: 5px;
+}
 
+
+/* Productos */
+
+.cont-producto {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+.producto {
+  width: 286px ;
+  border: 1px solid #ccc;
+  margin: 10px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #fff;
+  
+}
+.producto-img {
+  width: 286px ;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #fa6540;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
 }
