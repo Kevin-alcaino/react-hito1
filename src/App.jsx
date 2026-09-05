@@ -1,5 +1,4 @@
 import './App.css';
-import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import CardPizza from './components/CardPizza';
 
@@ -14,7 +13,7 @@ import prociutto from './assets/prociutto.png'
 function App() {
   return (
     <>
-      <Navbar />
+     
       <Hero />
       
       <div className="cont-producto">
@@ -52,7 +51,7 @@ function App() {
           img={prociutto}
           name="Pizza Prosciutto"
           description="Una pizza con prosciutto, rúcula y parmesano"
-          price={16.990}
+          price={16.99}
         />  
       </div>
     </>

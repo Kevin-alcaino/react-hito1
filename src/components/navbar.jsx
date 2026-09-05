@@ -1,43 +1,42 @@
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg mi-navbar-personalizado" data-bs-theme="dark">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          🍕 Pizzeria Il Tomaco
-        </a>
+        <a className="navbar-brand" href="#">🍕 Pizzeria Il Tomaco</a>
+        
         <button 
           className="navbar-toggler" 
           type="button" 
           data-bs-toggle="collapse" 
-          data-bs-target="#navbarNav" 
-          aria-controls="navbarNav" 
+          data-bs-target="#navbarContent" 
+          aria-controls="navbarContent" 
           aria-expanded="false" 
-          aria-label="Alternar navegación"
+          aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
+
+        <div className="collapse navbar-collapse" id="navbarContent">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#home">
-                Inicio
-              </a>
+              <a className="nav-link active" aria-current="page" href="#home">Inicio</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#perfil">
-                Perfil
-              </a>
+              <a className="nav-link" href="#perfil">Perfil</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#registrarse">
-                Registrarse
-              </a>
+              <a className="nav-link" href="#registrarse">Registrarse</a>
             </li>
           </ul>
+
+          <form className="d-flex" onSubmit={(e) => e.preventDefault()}>
+            <input className="form-control me-2" type="search" placeholder="Buscar pizza..." aria-label="Search" />
+            <button className="btn btn-outline-warning" type="submit">Buscar</button>
+          </form>
         </div>
       </div>
     </nav>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
