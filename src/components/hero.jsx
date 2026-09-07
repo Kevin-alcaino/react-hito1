@@ -1,10 +1,10 @@
-function hero() {
+
+function Hero() {
   return (
-<div className="hero">
-      <h1>IL TOMACO PIZZERIA</h1>
+    <div className="hero">
       <p>Recetas originales con masa madre y todo lo que necesitas para disfrutar de una auténtica pizza italiana.</p>
     </div>
   );
 }
 
-export default hero;
+export default Hero;
