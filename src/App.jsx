@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Header from './components/header';
 import Hero from './components/Hero';
-import CardPizza from './components/cardPizza';
+import CardPizza from './components/CardPizza';
 import Footer from './components/Footer';
 
 
