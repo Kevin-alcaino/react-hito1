@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 
 import Navbar from './components/Navbar';
-import Header from './components/header';
+import Header from './components/Header';
 import Hero from './components/Hero';
 import CardPizza from './components/CardPizza';
 import Footer from './components/Footer';
