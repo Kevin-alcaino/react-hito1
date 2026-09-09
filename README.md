@@ -4,17 +4,17 @@
 
 Aplicación web desarrollada en React y Vite para la pizzería "Il Tomaco", este proyecto permite visualizar una carta de diversas pizzas que se pueden gestionar con un carro de compras dinámico. Conceptos utilizados:
 
-###1. Componentes y Modularización
+**`1`** Componentes y Modularización
 Estructura basada en componentes: Separación lógica en Navbar, Header, Hero, CardPizza y Footer para mantener código reutilizable y limpio.
 
 Props: Envío de datos dinámicos como imágenes, nombres, descripciones y precios desde App hacia cada tarjeta de pizza.
 
-###2. Gestión de Estados y Eventos
+**`2`** Gestión de Estados y Eventos
 useState: Utilizado para gestionar de forma reactiva el estado del carrito de compras (cart), permitiendo agregar productos dinámicamente.
 
 Manipulación de arreglos (.reduce()): Empleado para calcular el monto total acumulado de los productos seleccionados en el carrito.
 
-###3. Utilidades y Formato
+**`3`** Utilidades y Formato
 Formato de moneda chilena (toLocaleString('es-CL')): Función auxiliar para mostrar los precios correctamente formateados en pesos chilenos (CLP).
 
 ## 🛠 Tecnologías implementadas
