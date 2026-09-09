@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Header from './components/header';
 import Hero from './components/Hero';
 import CardPizza from './components/cardPizza';
+import Footer from './components/Footer';
 
 
 // Imágenes.
@@ -74,6 +75,7 @@ const addToCart = (pizza) => {
           onnAddToCart={() => addToCart({ img: prociutto, name: "Pizza Prosciutto", description: "Una pizza con prosciutto, rúcula y parmesano", price: 16990 })}
         />  
       </div>
+      <Footer />
     </>
   )
 }

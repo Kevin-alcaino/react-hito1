@@ -60,3 +60,14 @@ button {
   cursor: pointer;
   border-radius: 5px;
 }
+
+/* Footer */
+footer {
+  background-color: #fa6540;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
